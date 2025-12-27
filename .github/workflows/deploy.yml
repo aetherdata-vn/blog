@@ -40,8 +40,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
-The Astro action can be configured with optional inputs. Provide these by uncommenting the with: line and the input you want to use.
-
-If your site requires any public environment variables, uncomment the env: line and add them there. (See the GitHub documentation on setting secrets for adding private environment variables.)
-
