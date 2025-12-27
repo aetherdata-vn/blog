@@ -12,7 +12,7 @@ export default defineConfig({
   site: 'https://aetherdata-vn.github.io',
   
   // Base path (set to '/' for most sites)
-  base: '/',
+  base: '/blog',
   
   // Configure Vite plugins and server settings
   vite: {
