@@ -19,7 +19,7 @@ const isPartOfSeries = series && Array.isArray(series) && series.length === 2;
 <article class="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden transition-transform duration-400 hover:transform hover:scale-[1.02]" >
   <!-- Post Image -->
   {image && (
-    <a href={`/${slug}/`} class="block overflow-hidden aspect-video">
+    <a href={`/blog/${slug}/`} class="block overflow-hidden aspect-video">
       <Image 
         src={image} 
         alt={title} 
@@ -58,7 +58,7 @@ const isPartOfSeries = series && Array.isArray(series) && series.length === 2;
     
     <!-- Title -->
     <h2 class="text-xl font-bold mb-2 text-gray-900 dark:text-white line-clamp-2" >
-      <a href={`/${slug}/`} class="hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
+      <a href={`/blog/${slug}/`} class="hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
         {title}
       </a>
     </h2>

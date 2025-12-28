@@ -34,7 +34,7 @@ export async function getStaticPaths() {
 }
 
 const { tag, posts, count } = Astro.props;
-const basePath = `/tags/${tag.toLowerCase()}`;
+const basePath = `/blog/tags/${tag.toLowerCase()}`;
 
 // Get pagination data for first page
 const { postsPerPage } = getPagination({ 
