@@ -8,7 +8,7 @@ export interface Props {
 }
 
 const { 
-  tags = ["Jamstack", "astro", "carrd"], 
+  tags = ["Test", "astro", "carrd"], 
   postsPerTag = 5 
 } = Astro.props;
 
@@ -58,7 +58,7 @@ const tagPosts = tags.map((tag) => ({
             <div class="divide-y divide-gray-100 dark:divide-gray-700">
               {posts.map((post) => (
                 <a
-                  href={`/${post.slug}/`}
+                  href={`/blog/${post.slug}/`}
                   class="flex items-center gap-4 group hover:bg-gray-50 dark:hover:bg-gray-700/50 rounded-lg py-3 first:pt-0 last:pb-0"
                 >
                   <div class="relative flex-shrink-0 w-20 overflow-hidden rounded-lg shadow-sm">

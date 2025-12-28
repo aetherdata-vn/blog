@@ -1,0 +1,30 @@
+<svg width="650" height="120" viewBox="0 0 650 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="roughEdges">
+      <feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="1" result="noise" />
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="1.5" />
+    </filter>
+
+    <linearGradient id="glitchGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="55%" stop-color="#31a8ff" />
+      <stop offset="55%" stop-color="#1e88e5" />
+    </linearGradient>
+  </defs>
+
+  <text 
+    x="50%" 
+    y="50%" 
+    font-family="Arial Black, sans-serif" 
+    font-size="52" 
+    font-weight="900" 
+    fill="url(#glitchGradient)" 
+    text-anchor="middle" 
+    dominant-baseline="middle"
+    filter="url(#roughEdges)"
+    style="letter-spacing: -2px; transform: skewX(-12deg); transform-origin: center;"
+  >
+    AETHERDATA VIETNAM
+  </text>
+  
+  <line x1="50" y1="66" x2="550" y2="66" stroke="#0b111d" stroke-width="1.5" opacity="0.5" />
+</svg>

@@ -1,7 +1,7 @@
 // Site configuration
 export const siteConfig = {
   // Site details from config.json:site
-  title: "Bit Doze Astro Blog Theme", // from config.json:site.title
+  title: "AetherData Vietnam Blog", // from config.json:site.title
   // description is used from existing site.ts, will be updated by config.json:metadata.meta_description
   // url is removed, Astro.site will be used
 
@@ -9,10 +9,10 @@ export const siteConfig = {
   logo: "/logo.svg",
   logoWidth: "200",
   logoHeight: "30",
-  logoText: "Bit Doze Astro Blog Theme",
+  logoText: "AetherData Vietnam",
 
   // SEO metadata from config.json:metadata
-  author: "Your Name", // from config.json:metadata.meta_author
+  author: "aetherdata-vn", // from config.json:metadata.meta_author
   description: "A modern, responsive blog theme for Astro with support for tags, categories, and series.", // from config.json:metadata.meta_description
   ogImage: "/images/og-image.png", // from config.json:metadata.meta_image (replaces defaultImage)
 

@@ -5,7 +5,7 @@ import { getCollection } from 'astro:content';
 import menu from "@config/menu.json";
 import social from "@config/social.json";
 import { siteConfig } from "@config/site";
-import logoSVG from "@assets/favicons/bitdoze_logo_better.svg";
+import logoSVG from "@assets/favicons/favicon.svg";
 
 
 // Extract footer menu items
@@ -35,13 +35,13 @@ const recentPosts = allPosts
         <Image 
         src={logoSVG} 
         alt={siteConfig.title + ' Logo'} 
-        width={140} 
+        width={250} 
         height={140} 
         class="mr-2"
       />
     </a>
         <p class="text-gray-500 dark:text-gray-400 text-sm">
-          Providing valuable resources and tutorials for web developers and tech enthusiasts.
+          Providing expert-led resources and deep-dive tutorials for data professionals and AI innovators.
         </p>
         <!-- Social Media Links -->
         <div class="flex space-x-4 mt-4">
